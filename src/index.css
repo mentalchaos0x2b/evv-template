@@ -1,0 +1,23 @@
+/* 
+  Inter + Ubuntu Mono
+
+  Inter: https://fonts.google.com/specimen/Inter
+  Ubuntu Mono: https://fonts.google.com/specimen/Ubuntu+Mono
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+
+  font-family: "Inter", serif;
+}
+
+.code-mono {
+  font-family: "Ubuntu Mono", serif;
+  * {
+    font-family: "Ubuntu Mono", serif;
+  }
+}
