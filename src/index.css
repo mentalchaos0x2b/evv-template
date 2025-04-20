@@ -1,10 +1,12 @@
 /* 
-  Inter + Ubuntu Mono
+  Google Fonts Used
+  Rubik + JetBrains Mono + Unbounded
 
-  Inter: https://fonts.google.com/specimen/Inter
-  Ubuntu Mono: https://fonts.google.com/specimen/Ubuntu+Mono
+  Unbounded: https://fonts.google.com/specimen/Unbounded
+  JetBrains Mono: https://fonts.google.com/specimen/JetBrains+Mono
+  Rubik: https://fonts.google.com/specimen/Rubik
 */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Unbounded:wght@200..900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,12 +14,19 @@
   padding: 0;
   user-select: none;
 
-  font-family: "Inter", serif;
+  font-family: "Rubik", serif;
 }
 
-.code-mono {
-  font-family: "Ubuntu Mono", serif;
-  * {
-    font-family: "Ubuntu Mono", serif;
+.mono {
+  font-family: "JetBrains Mono", monospace;
+  & * {
+    font-family: "JetBrains Mono", monospace;
+  }
+}
+
+.unbounded {
+  font-family: "Unbounded", sans-serif;
+  & * {
+    font-family: "Unbounded", sans-serif;
   }
 }

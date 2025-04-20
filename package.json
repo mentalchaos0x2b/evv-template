@@ -1,8 +1,8 @@
 {
-  "name": "data-tech",
-  "productName": "data-tech",
+  "name": "evv-template",
+  "productName": "evv-template",
   "version": "1.0.0",
-  "description": "Local Repair Service Dashboard",
+  "description": "evv-template",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -33,7 +33,6 @@
   "license": "MIT",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
-    "naive-ui": "^2.41.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   }
